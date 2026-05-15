@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito — Tienda Pérez</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/paginas.css">
+</head>
+<body>
+
+<header>
+  <div class="header-contenido">
+    <a href="login.html" class="header-link">
+      <img src="img/inicio.png" alt="Inicio de sesión" width="36">
+      <span>Iniciar sesión</span>
+    </a>
+    <a href="index.html" class="logo-link">
+      <img src="img/logo1.png" alt="Logo Tienda Pérez" width="180">
+    </a>
+    <a href="carrito.html" class="header-link">
+      <img src="img/carrito.png" alt="Carrito de compras" width="36">
+      <span>Carrito</span>
+    </a>
+  </div>
+</header>
+
+<nav>
+  <a href="nosotros.html">Sobre nosotros</a>
+  <a href="sabritas.html">Sabritas</a>
+  <a href="menu.html">Menú</a>
+  <a href="contacto.html">Contacto</a>
+</nav>
+
+<main>
+
+  <section class="pagina-hero">
+    <h1>Tu Carrito de Compras</h1>
+    <p>Revisa tus productos antes de finalizar el pedido</p>
+  </section>
+
+  <section class="pagina-contenido">
+    <div class="carrito-layout">
+
+      
+      <div>
+        <table class="carrito-tabla">
+          <thead>
+            <tr>
+              <th>Imagen</th>
+              <th>Producto</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th>Subtotal</th>
+              <th>Eliminar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="img/refresco2.png" alt="Pepsi 600ml"></td>
+              <td>Pepsi 600ml</td>
+              <td class="precio-col">$28</td>
+              <td>
+                <div class="carrito-cantidad">
+                  <button>−</button>
+                  <span>2</span>
+                  <button>+</button>
+                </div>
+              </td>
+              <td class="precio-col">$56</td>
+              <td><button class="btn-eliminar">✕</button></td>
+            </tr>
+            <tr>
+              <td><img src="img/botana3.png" alt="Cheetos 120g"></td>
+              <td>Cheetos 120g</td>
+              <td class="precio-col">$70</td>
+              <td>
+                <div class="carrito-cantidad">
+                  <button>−</button>
+                  <span>1</span>
+                  <button>+</button>
+                </div>
+              </td>
+              <td class="precio-col">$70</td>
+              <td><button class="btn-eliminar">✕</button></td>
+            </tr>
+            <tr>
+              <td><img src="img/lacteo1.png" alt="Leche Entera 1L"></td>
+              <td>Leche Entera 1L</td>
+              <td class="precio-col">$38</td>
+              <td>
+                <div class="carrito-cantidad">
+                  <button>−</button>
+                  <span>1</span>
+                  <button>+</button>
+                </div>
+              </td>
+              <td class="precio-col">$38</td>
+              <td><button class="btn-eliminar">✕</button></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p style="margin-top: 16px; font-size: 0.9rem; color: #777;">
+          ¿Quieres seguir comprando? <a href="index.html" style="color: var(--color-nav); font-weight: bold;">Regresar a la tienda</a>
+        </p>
+      </div>
+
+      
+      <div class="resumen-box">
+        <h2>Resumen del pedido</h2>
+
+        <div class="resumen-linea">
+          <span>Pepsi 600ml x2</span>
+          <span>$56</span>
+        </div>
+        <div class="resumen-linea">
+          <span>Cheetos 120g x1</span>
+          <span>$70</span>
+        </div>
+        <div class="resumen-linea">
+          <span>Leche Entera 1L x1</span>
+          <span>$38</span>
+        </div>
+        <div class="resumen-linea">
+          <span>Envío a domicilio</span>
+          <span>Gratis</span>
+        </div>
+
+        <div class="resumen-total">
+          <span>Total</span>
+          <span>$164</span>
+        </div>
+
+        <a href="login.html" class="btn-pagar">Proceder al pago</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Tienda Pérez — Abarrotes en línea | CONALEP 145</p>
+  <p>Diseño de Páginas Web — Alumno: Alan Fernando Ramirez Marin</p>
+</footer>
+
+</body>
+</html>
